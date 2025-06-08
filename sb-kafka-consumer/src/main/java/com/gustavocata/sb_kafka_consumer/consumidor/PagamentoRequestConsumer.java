@@ -1,8 +1,10 @@
-package com.gustavocata.sb_kafka_producer.consumidor;
+package com.gustavocata.sb_kafka_consumer.consumidor;
 
 import org.springframework.kafka.annotation.KafkaListener;
 import org.springframework.stereotype.Service;
 
+import org.springframework.kafka.annotation.KafkaListener;
+import org.springframework.stereotype.Service;
 @Service
 public class PagamentoRequestConsumer {
 
@@ -15,3 +17,5 @@ public class PagamentoRequestConsumer {
     }
 
 }
+
+
